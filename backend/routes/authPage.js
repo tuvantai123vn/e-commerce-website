@@ -19,6 +19,6 @@ exports.authPage = () => async (req, res, next) => {
     }
     next();
   } catch (err) {
-    next(err);
+    next();
   }
 };
